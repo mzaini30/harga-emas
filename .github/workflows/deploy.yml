@@ -30,8 +30,8 @@ jobs:
       - name: Install
         run: npm i
 
-      - name: Build
-        run: npm run build
+      - name: Generate
+        run: node index.js
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
