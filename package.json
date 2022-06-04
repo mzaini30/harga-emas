@@ -1,0 +1,6 @@
+{
+	"dependencies": {
+		"scrape-it": "^5.3.2"
+	},
+	"type": "module"
+}
