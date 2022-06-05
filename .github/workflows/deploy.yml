@@ -5,7 +5,7 @@ on:
     branches:
       - master
   schedule:
-    - cron: "0 */6 * * *" # look at crontab.guru
+    - cron: "0 */4 * * *" # look at crontab.guru
 
 jobs:
   deploy:
