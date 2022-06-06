@@ -16,6 +16,6 @@ async function init(){
 	if (!existsSync('dist')){
 		mkdirSync('dist')
 	}
-	writeFileSync('dist/data.json', stringify(data))
+	writeFileSync('dist/data.json', stringify(data, null, 2))
 }
 init()
